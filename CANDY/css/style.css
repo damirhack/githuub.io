@@ -1,0 +1,532 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+html.body{
+    height: 7667px;
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family:Montserrat-Light ;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family:Montserrat-VariableFont_wght ;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.conteiner{
+    width: 1120px;
+    height: 120vh;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 14px;
+    height: 44px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+.nav_ul{
+    margin-left: 48px;
+    display: flex;
+    width: 369px;
+    justify-content: space-between;
+}
+.Headline_4{
+    color:var(--blueberry-100 #1A404c);
+    font-family: Montserrat-Bold;
+    font-size: 28px;
+    line-height: 40px;
+}
+.label{
+    color: var(--black, #3D3D4E);
+    font-family:Montserrat-Light ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.nav_ul li{
+    list-style: none;
+}
+.btn_call{
+    width: 123px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--E8BAC4-100, #E8BAC4);
+    border: 0;
+    font-family: Montserrat-Light;
+    margin-top: 36px;
+}
+.main_hero{
+    display: flex;
+    margin-top: 63px;
+    align-items: center;
+}
+.headline_1{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+    font-family:Montserrat-Light ;
+}
+.main_hero-discript{
+    width: 529px;
+    margin-right: 47px;
+}
+.text_h2{
+    margin-top: 178px;
+    display: flex;
+    justify-content: center;
+    font-family:Montserrat-VariableFont_wght ;
+}
+
+.courses__body {
+    margin-top: 63px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+ }
+ .courses__body2{
+    margin-top: 63px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+ .card__body {
+    display: flex;
+    flex-direction: column;
+ }
+ .Headline_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 178px;
+    font-family:Montserrat-Light ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+ }
+ .card__img {
+    width: 300px;
+ }
+ .card__text {
+    font-family: Montserrat-VariableFont_wght;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ }
+ .btn{
+    background: var(--E8BAC4-100, #E8BAC4);
+    border: 0;
+    width: 123px;
+    height: 32px;
+    border-radius: 8px;
+    font-family: Montserrat-Light;
+    margin-top: 20px;
+    margin-left: 90px;
+ }
+ 
+.card {
+   display: flex;
+   flex-direction: column;
+   animation: Rotate 2s;
+}
+.card__body2{
+    width: 330px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 128px 32px 32px 32px;
+}
+.circle{
+    margin: auto;
+    border-radius: 50%;
+    background-color: #E8BAC4;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 28px;
+    margin-top: 32px;
+    width: 81px;
+    height: 72px;
+}
+.circle-2{
+    margin: auto;
+    border-radius: 50%;
+    background-color: #E8BAC4;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 28px;
+    margin-top: 32px;
+    width: 81px;
+    height: 72px;
+}
+.card__body3{
+    width: 330px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 128px 32px 32px 32px;
+}
+.work-love{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+    font-family:Montserrat-Light ;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about_grid{
+    margin-top: 97px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 212px;;
+}
+.about-grid_item{
+    text-align: center;
+    width: 150px;
+}
+.Headline_3{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: Montserrat-Bold;
+}
+.body_1{
+    font-family: Montserrat-VariableFont_wght;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+}
+.main_hero_2{
+    display: flex;
+    align-items: center;
+}
+.main_hero-discript-2{
+    display: flex;
+    margin-top: 100px;
+}
+.order{
+    display: flex;
+    margin-top: 30px;
+    font-family:Montserrat-Light ;
+    margin-left: 103px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+}
+.reg__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .input__container{
+    margin-left: 82px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.input{
+    width: 527px;
+    background-color: #D9D9D9;;
+    height: 50px;
+}
+.card__body4{
+    width: 230px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 32px 32px 32px 32px;
+    margin-top: 71px;
+    background-color: #E8BAC4;
+}
+.circle1{
+    margin: auto;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 81px;
+    height: 72px;
+}
+.foto{
+    width: 97px;
+    height: 97px;
+}
+.reviews{
+    margin-top: 63px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card__body5{
+    width: 342px;
+    height: 361px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 128px 32px 32px 32px;
+    margin-top: 71px;
+    background-color: #ffffff;
+}
+.main_hero-3{
+    margin-top: 117px;
+    display: flex;
+    background: var(--F0F0F2-50, rgba(240, 240, 242, 0.50));
+}
+.main_hero-discript-1{
+    width: 529px;
+    margin-right: 101px;
+}
+.Hedline_5{
+    font-family: Montserrat-Bold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.headline_6{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+    font-family:Montserrat-Light ;
+}
+.input-1{
+    width: 431px;
+    height: 50.888px;
+    flex-shrink: 0;
+    margin-top: 36px;
+    background-color: #D9D9D9;;
+}
+.btn-2{
+    width: 123px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--E8BAC4-100, #E8BAC4);
+    border: 0;
+    font-family: Montserrat-Light;
+    margin-top: 36px;
+}
+.headline_7{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+    font-family:Montserrat-Light ;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.body_2{
+    font-family: Montserrat-VariableFont_wght;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+}
+.request{
+    margin-top: 138px;
+    background-color: #FF6284;
+    border-radius: 128px 32px  32px 32px;
+    padding: 43px 124px 41px 131px;
+}
+.request_flex{
+    display: flex;
+    justify-content: space-between
+}
+.body_3{
+    font-family: Montserrat-VariableFont_wght;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+}
+.btn-3{
+    width: 123px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--E8BAC4-100, #ffffff);
+    border: 0;
+    font-family: Montserrat-Light;
+    margin-top: 36px;  
+}
+.card__body6{
+    width: 220px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px 32px 32px 32px;
+    margin-top: 71px;
+    background-color: #ffffff;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+@media (max-width: 390px){ 
+    .container{ 
+        width: 390px; 
+    } 
+    
+    .header__left{ 
+        width: 390px; 
+        flex-direction: column; 
+    } 
+    .header{ 
+        height: auto; 
+        flex-direction: column; 
+        justify-content: center; 
+        margin-left: 0; 
+    } 
+    .nav__ul{ 
+        width: 390px; 
+        align-items: center; 
+        margin: 10px 10px 10px 10px; 
+    } 
+    .main_hero{ 
+        width: 390px; 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .headline_1{ 
+        font-size: 20px; 
+    } 
+    .courses__body{ 
+        display: flex; 
+        justify-content: center; 
+        flex-direction: column; 
+    } 
+    .courses__body2{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .card__text{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .Headline_2{ 
+        display: flex; 
+        flex-direction: column;  
+        font-size: 20px; 
+        margin-left: 0; 
+    } 
+    .about_grid{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .main_hero-2{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .main_hero-discript-2{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .Bizkit{ 
+        width: 390px; 
+    } 
+    .input__container{ 
+        display: flex; 
+        flex-direction: column; 
+        margin-left: 0; 
+    } 
+    .input{ 
+        width: 390px; 
+    } 
+    .order{ 
+        margin: 0; 
+    } 
+    .reviews{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .main_hero-3{ 
+        width: 390px; 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .main_hero-discript-1{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .input-1{ 
+        width: 370px; 
+    } 
+    .headline_6{ 
+        font-size: 20px; 
+        margin-left: 10px; 
+    } 
+    .headline_7{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .body_2{ 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .request{ 
+        width: 350px; 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .Headline_4{ 
+        font-size: 15px; 
+    } 
+    .label{ 
+        font-size: 10px; 
+    } 
+    nav{ 
+        padding: 0; 
+        display: flex; 
+        flex-direction: column; 
+    } 
+    .Headline_9{ 
+        width: 390px; 
+        font-size: 18px; 
+    } 
+    .conteiner{ 
+        width: 390px; 
+    } 
+}
